@@ -2,3 +2,40 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.schedule {
+    width: 100%;
+    min-width: 1000px;
+    border: 1px solid black;
+}
+.schedule .schedule_row {
+  display: flex;
+}
+.schedule .schedule_row div {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.schedule .schedule_row div.houses {
+  width: 20%;
+  border-left: 0px;
+}
+.schedule .schedule_row div.bottom_row {
+  border-bottom: 0px;
+}
+.schedule .four_hours {
+  width: 80%;
+}
+.schedule .two_hours {
+  width: 40%;
+}
+.schedule .hour_and_half {
+  width: 30%;
+}
+.schedule .hour {
+  width: 20%;
+}
+.schedule .half_hour {
+  width: 10%;
+}
